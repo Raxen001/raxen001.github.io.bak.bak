@@ -28,8 +28,8 @@ body {
   padding-right: 10vw;
   margin: 1vh;
   background-color: var(--color-black);
-  color: var(--color-white);
-  font-size: 1.3rem;
+  color: var(--color-lightwhite);
+  font-size: 1.8rem;
 }
 pre,
 code {
