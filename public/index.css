@@ -107,3 +107,18 @@ nav a {
   padding: 8px;
   background-color: var(--color-gray);
 }
+
+img {
+  border: 3px solid #282828;
+  height: auto;
+  object-fit: cover;
+  object-position: 50% 100%;
+  text-align: center;
+  width: 50vw;
+}
+
+p {
+  text-align: center;
+  padding: 10px;
+  margin-top: 0px;
+}

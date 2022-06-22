@@ -32,6 +32,4 @@ Some make new friends everyday. but have no time spend quality time with all of 
 
 ![friends](../../kuru-friend-group.jpg)[^1]
 
-
-
 [^1]:Apsara, Anjali, Pranav Varma, Harshitha, Raxen, Karthick, Noumaan, Anirudh, Harrish, Arjun Sharath
