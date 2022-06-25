@@ -30,6 +30,10 @@ body {
   background-color: var(--color-black);
   color: var(--color-lightwhite);
   font-size: 1.8rem;
+  background-image: url('{{get_url(path="img/background-black.jpg")}}');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 }
 pre,
 code {

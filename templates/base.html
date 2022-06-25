@@ -32,13 +32,13 @@
 </pre>
     <nav>
       <ul>
-          <li><a href=""><i class="fa fa-home"></i></a></li>
+          <li><a href="{{ get_url(path="")}}"><i class="fa fa-home"></i>HOME</a></li>
           <!--<li><a href="books.html"><i class="fa fa-book"></i></a></li>-->
           <!--<li><a href="photo.html"><i class="fa fa-photo"></i></a></li>-->  
           <!--<li><a href="movie.html"><i class="fa fa-film"></i></a></li>--> 
-            <li><a href="anime">ANIME</a></li>
-            <li><a href="pages/startpage.html">STARTPAGE</a></li>
-            <li><a href="{{get_url(path="deep-thoughts/")}}">Deep-Thoughts</a></li>
+          <!--<li><a href="{{ get_url(path="@/anime/_index.md")}}">ANIME</a></li>-->
+          <!--<li><a href="pages/startpage.html">STARTPAGE</a></li>-->  
+          <li><a href="{{get_url(path="where-is-my-mind")}}">Where-Is-My-Mind</a></li>
       </ul>
     </nav>
       {% block content %} {% endblock %}
