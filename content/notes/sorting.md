@@ -63,7 +63,7 @@ The disadvantages associated with insertion sorting technique are as follows:
 
 ### Code
 
-```
+```c
 void insertionSort(int arr[], int n)
 {
     int i, key, j;
@@ -109,7 +109,7 @@ using it often are as follows:
 
 ### Code
 
-```
+```c
 // function to swap the the position of two elements
 void swap(int *a, int *b) {
   int temp = *a;
@@ -169,7 +169,7 @@ Some of the key advantages of shell sorting technique are:
 
 ### Code
 
-```
+```c
 void ShellSort(int a[], int n)
 {
     int gap, i, j, temp;
@@ -227,7 +227,7 @@ The disadvantages associated with bubble sorting technique are given below:
 
 ### Code
 
-```
+```c
 void bubbleSort(int array[], int size) {
 
   for (int step = 0; step < size - 1; ++step) {
@@ -270,7 +270,7 @@ sorting techniques.
 
 ### code
 
-```
+```c
 void QuickSort(int a[], int left, int right)
 {
     int i, j, temp, pivot;
@@ -306,7 +306,7 @@ recursively.
 
 ### code
 
-```
+```c
 void MergeSort(int arr[], int left, int right) {
   int center;
   if (left < right) {
