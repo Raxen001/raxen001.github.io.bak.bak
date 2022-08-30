@@ -22,6 +22,7 @@
   --color-lightorange: #fe8019;
 }
 body {
+  background-image: url('img/back-mesh.jpg');
   padding: 0px;
   padding-left: 10vw;
   padding-right: 10vw;
@@ -36,10 +37,17 @@ body {
 pre,
 code {
     font-size: 1.0rem;
-  text-align: left;
-  padding: 10px;
-  margin-top: 0px;
-  border-color: var(--color-blue);
+    text-align: left;
+    padding: 10px;
+    margin-top: 0px;
+    border-color: var(--color-blue);
+}
+pre.ascii {
+    font-size: 0.7rem;
+    text-align: center;
+    border-color: var(--color-blue);
+    color: var(--color-red);
+    opacity: 0.8;
 }
 
 a {
