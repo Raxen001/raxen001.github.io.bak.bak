@@ -18,9 +18,9 @@
     <nav>
         <ul>
             <li><a href="{{get_url(path="")}}">HOME</a></li>
-            <li><a href="{{get_url(path=" anime")}}">Anime</a></li>
-            <li><a href="{{get_url(path=" where-is-my-mind")}}">Where-Is-My-Mind</a></li>
-            <li><a href="{{get_url(path=" notes")}}">NOTES</a></li>
+            <li><a href="{{get_url(path="anime")}}">Anime</a></li>
+            <li><a href="{{get_url(path="where-is-my-mind")}}">Where-Is-My-Mind</a></li>
+            <li><a href="{{get_url(path="notes")}}">NOTES</a></li>
             <!--<li><a href="books.html"><i class="fa fa-book"></i></a></li>-->
             <!--<li><a href="photo.html"><i class="fa fa-photo"></i></a></li>-->
             <!--<li><a href="movie.html"><i class="fa fa-film"></i></a></li>-->
@@ -28,22 +28,12 @@
             <!--<li><a href="pages/startpage.html">STARTPAGE</a></li>-->
         </ul>
     </nav>
-    <div class="profile-pic">
-        <img src="./img/master-chief.jpg">
-        <pre class="ascii">
- ██▀███   ▄▄▄      ▒██   ██▒▓█████  ███▄    █ 
-▓██ ▒ ██▒▒████▄    ▒▒ █ █ ▒░▓█   ▀  ██ ▀█   █ 
-▓██ ░▄█ ▒▒██  ▀█▄  ░░  █   ░▒███   ▓██  ▀█ ██▒
-▒██▀▀█▄  ░██▄▄▄▄██  ░ █ █ ▒ ▒▓█  ▄ ▓██▒  ▐▌██▒
-░██▓ ▒██▒ ▓█   ▓██▒▒██▒ ▒██▒░▒████▒▒██░   ▓██░
-░ ▒▓ ░▒▓░ ▒▒   ▓▒█░▒▒ ░ ░▓ ░░░ ▒░ ░░ ▒░   ▒ ▒ 
-  ░▒ ░ ▒░  ▒   ▒▒ ░░░   ░▒ ░ ░ ░  ░░ ░░   ░ ▒░
-  ░░   ░   ░   ▒    ░    ░     ░      ░   ░ ░ 
-   ░           ░  ░ ░    ░     ░  ░         ░ 
-        </pre>
+    <main>
+    <div id="container">
+        {% block content %} {% endblock %}
     </div>
-    {% block content %} {% endblock %}
-</body>
-
+    <hr>
+    </main>
+  </body>
 </html>
 </DOCTYPE>

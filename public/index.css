@@ -91,6 +91,7 @@ h6 {
 }
 nav {
   background-color: var(--color-gray);
+  margin-bottom: 1vw;
   text-align: center;
   justify-content: center;
   font-weight: bold;
@@ -127,15 +128,27 @@ img {
     padding-left: 3vw;
     background-color: var(--color-black);
 }
-
-.profile-pic{
-    display:flex;
-    justify-content: center;
+#container{
+    display: grid;
 }
-
-.profile-pic img{
+#profile{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:center;
+}
+#profile > * {
+    flex: 1 1 0;
+}
+#profile .pic img{
     width: 210px;
     height: 210px;
-    border-color: var(--color-yellow);
     border-radius: 50%;
+    border-color: var(--color-yellow);
+    margin: auto;
+    margin-left: 22%;
+}
+
+#profile .pascii {
+    margin: auto;
+    align-self: center;
 }
