@@ -22,7 +22,7 @@ def create():
         f.write(temp1) 
         for i in contents:
             h = re.sub(r"\..*", "", i)
-            foo = '<div class="container"> <img src="./img/anime/'+i+'"><div class="text">'+h+'</div></div>\n'
+            foo = '<div class="container"> <img src="../img/anime/'+i+'"><div class="text">'+h+'</div></div>\n'
             f.write(foo)
         f.write(temp2)
 
