@@ -1,48 +1,49 @@
 <!DOCTYPE html>
-  <html>
-    <title>Raxen's abode</title>
-    <head>
-      <link
-        rel="stylesheet"
-        href="//cdn.jsdelivr.net/npm/hack-font@3/build/web/hack.css"
-      />
-      <link rel="icon" type="image/png" sizes="32x32"
-      href="{{get_url(path="img/favicon-32x32.png")}}" />
+<html>
+<title>Raxen's abode</title>
 
-      <meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
-      <meta content="utf-8" http-equiv="encoding" />
+<head>
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hack-font@3/build/web/hack.css" />
+    <link rel="icon" type="image/png" sizes="32x32" href="{{get_url(path="img/favicon-32x32.png")}}" />
 
-      <meta name="author" content="Raxen" />
-      <meta name="description" content="This Raxen's Homepage" />
-      <link rel="stylesheet" type="text/css" href="{{ get_url(path="index.css")
-      }}" />
-    </head>
-    <body>
-      <pre class="ascii">
-  ██▀███   ▄▄▄      ▒██   ██▒▓█████  ███▄    █
- ▓██ ▒ ██▒▒████▄    ▒▒ █ █ ▒░▓█   ▀  ██ ▀█   █
- ▓██ ░▄█ ▒▒██  ▀█▄  ░░  █   ░▒███   ▓██  ▀█ ██▒
- ▒██▀▀█▄  ░██▄▄▄▄██  ░ █ █ ▒ ▒▓█  ▄ ▓██▒  ▐▌██▒
- ░██▓ ▒██▒ ▓█   ▓██▒▒██▒ ▒██▒░▒████▒▒██░   ▓██░
- ░ ▒▓ ░▒▓░ ▒▒   ▓▒█░▒▒ ░ ░▓ ░░░ ▒░ ░░ ▒░   ▒ ▒
-   ░▒ ░ ▒░  ▒   ▒▒ ░░░   ░▒ ░ ░ ░  ░░ ░░   ░ ▒░
-   ░░   ░   ░   ▒    ░    ░     ░      ░   ░ ░
-    ░           ░  ░ ░    ░     ░  ░         ░
-</pre>
-      <nav>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
+    <meta content="utf-8" http-equiv="encoding" />
+
+    <meta name="author" content="Raxen" />
+    <meta name="description" content="This Raxen's Homepage" />
+    <link rel="stylesheet" type="text/css" href="{{ get_url(path="index.css") }}" />
+</head>
+
+<body>
+    <nav>
         <ul>
-          <li> <a href="{{get_url(path="")}}">HOME</a></li>
-          <li><a href="{{get_url(path="anime")}}">Anime</a></li>
-          <li><a href="{{get_url(path="where-is-my-mind")}}">Where-Is-My-Mind</a></li>
-          <li><a href="{{get_url(path="notes")}}">NOTES</a></li>
-          <!--<li><a href="books.html"><i class="fa fa-book"></i></a></li>-->
-          <!--<li><a href="photo.html"><i class="fa fa-photo"></i></a></li>-->
-          <!--<li><a href="movie.html"><i class="fa fa-film"></i></a></li>-->
-          <!--<li><a href="{{ get_url(path="@/anime/_index.md")}}">ANIME</a></li>-->
-          <!--<li><a href="pages/startpage.html">STARTPAGE</a></li>-->
-        </ul> 
-      </nav>
-      {% block content %} {% endblock %}
-    </body>
-  </html>
+            <li><a href="{{get_url(path="")}}">HOME</a></li>
+            <li><a href="{{get_url(path=" anime")}}">Anime</a></li>
+            <li><a href="{{get_url(path=" where-is-my-mind")}}">Where-Is-My-Mind</a></li>
+            <li><a href="{{get_url(path=" notes")}}">NOTES</a></li>
+            <!--<li><a href="books.html"><i class="fa fa-book"></i></a></li>-->
+            <!--<li><a href="photo.html"><i class="fa fa-photo"></i></a></li>-->
+            <!--<li><a href="movie.html"><i class="fa fa-film"></i></a></li>-->
+            <!--<li><a href="{{ get_url(path="@/anime/_index.md")}}">ANIME</a></li>-->
+            <!--<li><a href="pages/startpage.html">STARTPAGE</a></li>-->
+        </ul>
+    </nav>
+    <div class="profile-pic">
+        <img src="./img/master-chief.jpg">
+        <pre class="ascii">
+ ██▀███   ▄▄▄      ▒██   ██▒▓█████  ███▄    █ 
+▓██ ▒ ██▒▒████▄    ▒▒ █ █ ▒░▓█   ▀  ██ ▀█   █ 
+▓██ ░▄█ ▒▒██  ▀█▄  ░░  █   ░▒███   ▓██  ▀█ ██▒
+▒██▀▀█▄  ░██▄▄▄▄██  ░ █ █ ▒ ▒▓█  ▄ ▓██▒  ▐▌██▒
+░██▓ ▒██▒ ▓█   ▓██▒▒██▒ ▒██▒░▒████▒▒██░   ▓██░
+░ ▒▓ ░▒▓░ ▒▒   ▓▒█░▒▒ ░ ░▓ ░░░ ▒░ ░░ ▒░   ▒ ▒ 
+  ░▒ ░ ▒░  ▒   ▒▒ ░░░   ░▒ ░ ░ ░  ░░ ░░   ░ ▒░
+  ░░   ░   ░   ▒    ░    ░     ░      ░   ░ ░ 
+   ░           ░  ░ ░    ░     ░  ░         ░ 
+        </pre>
+    </div>
+    {% block content %} {% endblock %}
+</body>
+
+</html>
 </DOCTYPE>
